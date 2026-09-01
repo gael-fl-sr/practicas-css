@@ -1,0 +1,47 @@
+body{
+  background-color:#f0f0f0;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: yellow;
+}
+a:link{
+  color: #5EE063
+}
+a:hover{
+  color:#008A06
+}
+a:active{
+  color:yellow;
+}
+a:focus{
+  border: solid black ;
+}
+.card{
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  width:450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+.card h1{
+  text-align: center;
+  font-weight: 500;
+}
+.item{
+  margin-bottom: 15px;
+  background-color: #e5f1e5;
+  padding: 15px 0px 30px 15px;
+  list-style-type: none;
+  border-radius: 5px;
+}
+.sub-item li{
+  margin-top:15px;
+  list-style-type: square;
+  padding-left: 25px;
+}
