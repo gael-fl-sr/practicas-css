@@ -1,0 +1,32 @@
+html {
+    background-color: gray;
+}
+
+body {
+    padding: 50px 0px;
+    margin: 0 auto;
+    width: 90vw;
+    min-height: calc(100vh - 100px);
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+
+section {
+    width: 30%;
+    display: inline-block;
+    padding: 50px 10px;
+    text-align: center;
+    /*Esta línea hace que los section con inline-block se alineen por su borde superior entre sí.*/
+    vertical-align: top;
+}
+
+li {
+    text-align: left;
+}
