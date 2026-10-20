@@ -1,0 +1,85 @@
+html{
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #ffffff;
+}
+body{
+  display: flex;
+  margin: 0;
+}
+header{
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+.nav-link{
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #4d4e53;
+  cursor: pointer;
+}
+#navbar ul{
+  padding: 0;
+}
+
+#navbar li{
+  list-style-type: none;
+  border-top: 1px solid #4d4e53;
+  padding: 5px 0;
+}
+#navbar li:last-of-type{
+  border-bottom: 1px solid #4d4e53;
+}
+#navbar header{
+  text-align: center;
+  padding-top: 15px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+#navbar{
+  min-width: 280px;
+  height: 100vh;
+  border-right: 2px solid #99a2a2;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.main-section header{
+  padding: 25px 0 5px 35px;
+  color: black;
+}
+.main-section p, .main-section li, .main-section code{
+  color: #4d4e53;
+}
+.main-section code{
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+.main-section article{
+  padding: 0 50px;
+  font-size: 0.96rem;
+  line-height: 1.5em;
+  text-align: justify;
+}
+#main-doc{
+  max-width: 850px;
+}
+
+/*Para telefonos*/
+@media (max-width: 815px){
+  body{
+    flex-direction: column;
+  }
+  #navbar{
+    width: 100vw;
+    max-height: 250px; 
+    background-color: #fff;
+    border-bottom: 2px solid #4d4e53;
+    position: static;
+  }
+}

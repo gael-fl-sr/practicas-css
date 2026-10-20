@@ -1,0 +1,27 @@
+#email{
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: seashell;
+}
+#confidential, #top-secret{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 100px;
+  border: 5px solid red;
+  transform: rotate(-15deg);
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.blurred{
+  filter: blur(3px);
+}
+#top-secret{
+  margin-left: 200px;
+  transform: rotate(15deg);
+  font-size: 15px;
+}
